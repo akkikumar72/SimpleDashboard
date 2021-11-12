@@ -18,7 +18,7 @@ const Table = (props) => {
           <tr key={key}>
             <td>{key}</td>
             <td>{formatDateTime(Object.values(col)[0])}</td>
-            <td>{formatDateTime(Object.values(col)[1])}</td>
+            <td>{parseInt(Object.values(col)[1])}</td>
           </tr>
         ))}
       </tbody>
